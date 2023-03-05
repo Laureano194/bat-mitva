@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.css"/>
+    <link rel="stylesheet" href="./assets/fontawesome/css/regular.css"/>
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.css"/>
     <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="./assets/fontawesome-free-6.3.0-web/css/brands.css"/>
-    <link rel="stylesheet" href="./assets/fontawesome-free-6.3.0-web/css/all.css"/>
-    <link rel="stylesheet" href="./assets/fontawesome-free-6.3.0-web/css/regular.css"/>
-    <link rel="stylesheet" href="./assets/fontawesome-free-6.3.0-web/css/solid.css"/>
-    <title>Document</title>
+  
+    <!-- Facebook and Twitter integration -->
+    <meta name="description" content="Se acerca un momento especial y quiero compartirlo con vos." />
+	<meta name="keywords" content="invitacion web tarjeta digital" />
+	<meta name="author" content="Röss Design" />
+ 	<meta property="og:title" content="Bat Mitzva de Hanna"/>
+	<meta property="og:url" content="https://batmitzvahanna.vercel.app/"/>
+	<meta property="og:site_name" content="Invitación"/>
+	<meta property="og:description" content="Se acerca un momento especial y quiero compartirlo con vos."/>
+	<meta name="twitter:title" content="Se viene el Bat Mitzva de Hanna." />
+	<meta name="twitter:url" content="https://batmitzvahanna.vercel.app/" />
+    <!-- IMAGENES -->
+	<meta name="twitter:image" content="https://media.gettyimages.com/id/160470005/es/vector/bat-mitzvah-icono.webp?s=2048x2048&w=gi&k=20&c=DGwt7kJy3w76VepvUWWExY7-iF_2SU-3qXXSVqfbrwY=" />
+	<meta property="og:image" content="https://media.gettyimages.com/id/160470005/es/vector/bat-mitzvah-icono.webp?s=2048x2048&w=gi&k=20&c=DGwt7kJy3w76VepvUWWExY7-iF_2SU-3qXXSVqfbrwY="/>
+
+    <title>🌎 Bat Mitzva de Hanna</title>
 </head>
 <body>
     <header class="hero">
@@ -18,53 +33,86 @@
         <div class="overlay"></div>
         <div class="container row">
             <div class="hero__content">
-                <!-- <h1>Mi Bat <br/> Mitva</h1> -->
                 <h2>Hanna</h2>
-                <h1>Mi Bat Mitva</h1>
+                <h1>Mi Bat Mitzva</h1>
             </div>
         </div>
+        <div class="elemento">
+            <a title="Ir abajo!" class="menuPpal suavizado" href="#main"><i class="fa fa-angle-down flecha animatedColor" aria-hidden="true"></i> </a>
+        </div>
     </header>
-    <section class="main"> 
+    <section class="main" id="main"> 
         <div class="container">
             <img src="./assets/images/butterfly_01.png" id="butterfly_image" alt="mariposa cobre" width="170">
             <img src="./assets/images/butterfly_02.png" id="butterfly_image2" alt="mariposa cobre" width="225">
-            <p class="main__text">Te invito a celebrar la ceremonia de mi Bat Mitva, en donde seré honrada con la lectura de la Torá, 
-               el sábado 15 de Abril de 2023 en la sinagoga de la Asociación Israelita de Bahía Blanca, España 42.</p>
+            <p class="main__text">Te invito a celebrar la ceremonia de mi Bat Mitzva, en donde seré honrada con la lectura de la Torá, 
+               el sábado 15 de Abril de 2023 a las 10 hs. en la sinagoga de la Asociación Israelita de Bahía Blanca, España 42.</p>
             <p>Luego de esta ceremonia festejaremos juntos en Punto Alem Eventos, Av. Alem 842.</p>
-            <p>Kabalat Shabat, Viernes 14 de Abril <strong>.</strong> hs España 42.</p>
+            <p>Kabalat Shabat, Viernes 14 de Abril 20 hs. España 42.</p>
         </div>
     </section>
     <section class="info">
         <div class="container row">
                 <div class="info__container">
-                    <!-- <div class="info__item"><i class="fa-solid fa-synagogue"></i> <h3>Asociación Israelita, España 42.</h3></div>
-                    <div class="info__item"><i class="fa-solid fa-calendar"></i> <h3>15 de Abril, <strong>FALTA LA HORA</strong></h3></div>
-                    <div class="info__item"><i class="fa-solid fa-location"></i> <h3>Punto Alem Eventos, Alem 862.</h3></div>
-                    <div class="info__item"><i class="fa-solid fa-bus"></i> <h3>Colectivo disponible para adolescentes.</h3></div> -->
 
                     <div class="info__item">
-                        <img src="./assets/icons/synagogue.png" alt="">
+                        <img src="./assets/icons/synagogue.png" alt="sinagoga">
                         <h3>Asociación Israelita, España 42.</h3>
                     </div>
                     
                     <div class="info__item">
-                        <img src="./assets/icons/calendar.png" alt="">
-                        <h3>15 de Abril, <strong>FALTA LA HORA</strong></h3>
+                        <img src="./assets/icons/calendar.png" alt="calendario">
+                        <h3><span>Kabalat Shabat:</span> 14 de Abril, 20hs.</h3>
+                        <h3><span>Bat Mitzva:</span> 15 de Abril, 10hs.</h3>
                     </div>
                     
                     <div class="info__item">
-                        <img src="./assets/icons/champange-glass.png" alt="">
-                         <h3>Punto Alem Eventos, Alem 862.</h3>
+                        <img src="./assets/icons/champange-glass.png" alt="copas">
+                        <h3>Punto Alem Eventos, Alem 862.</h3>
                     </div>
 
                     <div class="info__item">
-                        <img src="./assets/icons/bus.png" alt="">
-                        <h3>Colectivo disponible para adolescentes.</h3>
+                        <img src="./assets/icons/bus.png" alt="colectivo">
+                        <h3>Colectivo para los adolescentes, después de la ceremonia.</h3>
                     </div>
                 </div>
         </div>
     </section>
     
+    <!-- FORM -->
+    <section class="form__section">
+		<div class="container row">
+					<h2>¿Cuento con vos?</h2>
+					<span id="confirmation__span"><strong>Por favor, confirmar asistencia antes del 1 de Abril.</strong></span>
+			<div class="form__container">
+						<form>
+							<div class="form-group">
+								<select name="asiste" class="form-control form-control-select" id="asistencia" required>
+									<option disabled selected>¿Vas a asistir?</option>
+									<option value="Si">Si</option>
+									<option value="No">No</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<input type="number" class="form-control" max="10" min="1" placeholder="¿Cuántos son?" id="cantidad" name="cantidad" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" name="menu" id="menu" placeholder="¿Necesitas algún menú especial? ¿Cuál? Ej: Un menú celíaco. (Opcional)">
+							</div>
+						<button class="btn btn-date" type='submit'>Confirmar</button>
+					</form>
+					
+				</div> 
+			</div>
+	
+        </div>
+
+    </section>
+    <!-- END FORM -->
+
     <footer>
         <div class="row">
             <div>
@@ -78,5 +126,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 </html>
