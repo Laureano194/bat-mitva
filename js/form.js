@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
 
 const textWhatsapp = data => {
     let URL = [];
-    let phone = "2916422322"
+    let phone = "2914071620"
     let urlWhatsapp = `https://api.whatsapp.com/send?phone=${phone}&text=`
     let stringNombre = `%2ANombre:%2A ${data.nombre}.`
     stringNombre = stringNombre.split(' ')
