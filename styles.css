@@ -405,18 +405,21 @@ transform: translate(0px, 50px);
 }
 .form__section h2{
     margin-bottom: 1.5rem;
-    /* font-size: 2.5em; */
     font-size: 7vmin;
     font-size: clamp(1.5rem, 7vmin, 2.75rem);
     font-family: 'british-castilla';
     line-height: 1.8em;
 }
 
-.form__section span{
+#confirmation__span{
     font-size: clamp(1rem, 5vmin ,1.9rem);
     font-family: 'champagne';
 }
 
+#caveat{
+    font-size: clamp(1.3rem, 4vmin ,1.5rem);
+    font-family: 'champagne';
+}
 
 .form-control {
     display: block;
