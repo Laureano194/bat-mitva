@@ -22,7 +22,7 @@ const textWhatsapp = data => {
     let noAsistePlural = "Nos lo perdemos :("
     let asisteSingular = "Obvio que voy!"
     let noAsisteSingular = "Me lo pierdo :("
-    
+    let stringDni = `%2ADNI:%2A ${data.dni}.`
     let stringAsiste = "%2A¿Vas%3F%2A "
     let stringAsisteRespuesta = data.cantidad > 1 
     ? (data.asiste == "Si" ? asistePlural : noAsistePlural) 
@@ -31,7 +31,7 @@ const textWhatsapp = data => {
     stringAsiste = stringAsiste.split(' ')
     stringAsiste = stringAsiste.join('%20')
     
-    URL = [urlWhatsapp, stringNombre, stringCantidad, stringAsiste]
+    URL = [urlWhatsapp, stringNombre, stringCantidad, stringAsiste, stringDni]
     
     if(data.menu) {
         let stringMenu = `%2AMenu:%2A ${data.menu}.`
